@@ -268,6 +268,7 @@ header .highlight, header .About_current a{
 
 .About_container_body{
     display: flex;
+    min-height: 900px;
 }
 
 .About_container_sidebar{
@@ -286,7 +287,11 @@ header .highlight, header .About_current a{
     overflow: hidden;
     flex-basis: 90%
 }
-
+.About_side-bar_socials{
+    position: absolute;
+    list-style-type: none;
+    margin: auto;
+}
 
 /*project page*/
 
@@ -325,12 +330,18 @@ header .highlight, header .Project_current a{
     margin: auto;
     overflow: hidden;
     }
-
+.Project_side-bar_socials{
+    position: absolute;
+    list-style-type: none;
+    margin: auto;
+    }
 /*showcase in project*/
 
 
 .Project_container_body{
     display: flex;
+    min-height: 900px;
+
 }
 
 .Project_container_sidebar{
@@ -344,8 +355,19 @@ header .highlight, header .Project_current a{
 
 .Project_container_hi{
     width: 50%;
-    margin: auto;
     margin-right : 150px;
     overflow: hidden;
     flex-basis: 90%
+}
+.Project_h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 70px;
+    color: #1d1e22
+}
+.Project_description{
+    text-align: center;
+    letter-spacing: .025em;
+    line-height: 1.8em;
+    color: #52545a;
 }
