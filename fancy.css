@@ -95,18 +95,30 @@ header #menu:hover{
     display: flex;
 }
 
+
 .container_sidebar{
-    width: 50%;
     margin: auto;
     margin-top: 150px;
     overflow: hidden;
     flex-basis: 10%;
     padding-top: 20px;
+}
+.container_moto{
+    position : absolute;
+    font-weight: 600;
+    transform: rotate(90deg);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
     
 }
-
+.motobox{
+height: 90px;
+}
 .side-bar_socials{
+    position: absolute;
     list-style-type: none;
+    margin: auto;
 }
 .items{
     margin-top : 10px;
