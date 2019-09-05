@@ -7,25 +7,28 @@
     <meta name="keywords" content="web-design, afforable web design, professional webdesign">
     <meta name="author" content="web-design, afforable web design, professional webdesign">
     <meta http-equiv="X-UA-Compatible" content="Andy">
-    <title>Andy Web Design </title>
-    <link rel= "stylesheet" href = "fancy.css">
+    <title>Dongwoo Kang Personal </title>
+    <link rel= "stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel= "stylesheet" href="node_modules/paper-css/paper.css">
+    <link rel= "stylesheet" href ="fancy.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class = "container">
+        <div class = "container_header">
             <div id = "branding">
-                <h1><span class="highlight">Andy</span> Web design</h1>
+                DKANG
             </div>
             <nav>
                 <ul>
                     <li class="current">
-                        <a href="index.html">Home</a>
+                        <a href="index.html" id="menu">Home</a>
                     </li>
-                    <li>
-                        <a href="about.html">About</a>
+                    <li class="current">
+                        <a href="about.html" id="menu">About</a>
                     </li>
-                    <li>
-                        <a href="service.html">Services</a>
+                    <li class="current">
+                        <a href="project.html" id="menu">Projects</a>
                     </li>
                 </ul>
             </nav>
@@ -33,35 +36,44 @@
     </header>
 
     <section id= "showcase">
-        <div class = "container">
-            <h1> Professional Web Design</h1>
-            <p>dkdkdkdkkkdkdkddkkddkkdkkdkdkkdkdkkd</p>
+        <div class="container_body">
+        <div class="container_sidebar">
+            <ul class="side-bar_socials">
+                <li class="items" >github</li>
+                <li class="items">facebook</li>
+                <li class="items">instagram</li>
+                <li class="items">whatsapp</li>
+            </ul>
         </div>
+        <div class = "container_hi">
+            <h1>HELLO!  </h1>
+            <p>I am Dongwoo Kang</p>
+            <p>Software developer</p>
+        </div>
+    </div>
     </section>
-    <section id = "newsletter">
+    <!-- <section id = "newsletter">
         <div class="container">
-            <h1>Subscribe To My Newletter</h1>
+            <h1>Subscribe To My Newsletter</h1>
         
         <form action="process.php">
             <input type="email" placeholder="Enter Email...">
             <button type="submit" class = "button_1"> Subscribe </button>
         </form>
     </div>
-    </section>
+    </section> -->
     <section id = "boxes">
         <div class="container">
             <div class = "box">
-                <img src="img/logo_java.png">
+           <!--      <img src="img/logo_java.png"> -->
                 <h3>Java developer</h3>
                 <p>abcd</p>
             </div>
             <div class = "box">
-                <img src="img/logo_js.png">
                 <h3>Javascript dev</h3>
                 <p>abcd</p>
             </div>
                 <div class = "box">
-                <img src="img/logo_moc.png">
                 <h3>Software Testing</h3>
                 <p>abcd</p>
             </div>
