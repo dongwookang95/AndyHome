@@ -292,7 +292,6 @@ header .highlight, header .About_current a{
 
 .About_container_hi{
     width: 50%;
-    margin: auto;
     margin-right : 150px;
     overflow: hidden;
     flex-basis: 90%
