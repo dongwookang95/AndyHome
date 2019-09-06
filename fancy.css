@@ -355,7 +355,7 @@ header .highlight, header .Project_current a{
 
 .Project_container_hi{
     width: 50%;
-    margin-right : 150px;
+    margin-right:100px;
     overflow: hidden;
     flex-basis: 90%
 }
@@ -370,4 +370,52 @@ header .highlight, header .Project_current a{
     letter-spacing: .025em;
     line-height: 1.8em;
     color: #52545a;
+}
+.pcontainner{
+    display: flex;
+    margin-left : 100px;
+    margin-top : 40px;
+    text-align: center
+}
+.Project_image{
+    
+    flex-basis: 30%;
+    width: 10px;
+    height:10px;
+}
+.Project_discription{
+    flex-basis: 70%;   
+    width: 600px;
+    height: 400px; 
+}
+
+.Project_image_file{
+    width: 450px;
+    height: 300px; 
+}
+.Project_name{
+    margin: auto;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.Project_explain_role{
+    margin: auto;
+    font-weight: 400;
+    font-size: 15px;
+    color: #52545a
+}
+.Project_explain_tool{
+    margin: auto;
+    font-weight: 400;
+    font-size: 12px;
+    color: #52545a
+}
+.Project_explain_brief{
+    margin: auto;   
+    margin-top: 20px;
+    line-height: 50px;
+    width: 450px;
+    height: 300px; 
+    
 }
