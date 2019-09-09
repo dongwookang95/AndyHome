@@ -72,8 +72,6 @@ header #branding{
 
 
 
-header #h1{
-}
 
 header nav{
     margin-top: 0px;
@@ -108,6 +106,7 @@ header #menu:hover{
     flex-basis: 10%;
     padding-top: 20px;
 }
+
 .container_moto{
     position : absolute; 
     font-weight: 600;
@@ -115,8 +114,8 @@ header #menu:hover{
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 14px;
-    
 }
+
 .motobox{
 height: 90px;
 }
@@ -302,6 +301,76 @@ header .highlight, header .About_current a{
     margin: auto;
     margin-left : 20px;
 }
+
+/* Create four equal columns that floats next to each other */
+
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+.column {
+    width: 100%;
+    }
+.column .About_moto{
+    font-size: 40px;
+    }
+.column .moto_slider{
+    font-size: 37px;
+}
+.About_container_sidebar{
+    visibility:hidden;
+    }
+.About_container_hi{
+    display: flex;
+    margin-right: 0px;
+}
+.moto_container{
+    flex-basis: 40%;
+}
+.moto_slider{
+    flex-basis: 60%;
+}
+.column #About_branding{
+    font-size:25px;
+}
+.About_current{
+    font-size:19px;
+}
+
+}
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 756px) {
+    .column {
+        width: 100%;
+        }
+    .column .About_moto{
+        font-size: 15px;
+        }
+    .column .moto_slider{
+        font-size: 10px;
+    }
+    .About_container_sidebar{
+        visibility:hidden;
+        }
+    .About_container_hi{
+        display: flex;
+        margin-right: 0px;
+        margin-left: 20px;
+    }
+    .moto_container{
+        flex-basis: 40%;
+    }
+    .moto_slider{
+        flex-basis: 60%;
+    }
+    .column #About_branding{
+        font-size:20px;
+    }
+    .About_current{
+        font-size:14px;
+    }
+    
+  }
 
 .About_moto{
     color: #212121;
