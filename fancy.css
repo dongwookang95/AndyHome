@@ -303,6 +303,25 @@ header .highlight, header .About_current a{
     margin-left : 20px;
 }
 
+.About_moto{
+    color: #212121;
+    text-align: left;
+    font-weight: 900;
+    font-size: 90px;
+    margin: auto;
+}
+
+.moto_slider{
+    font-weight: 200;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.word-slider-letter{
+    display: inline-block;
+    line-height: 1em;
+}
 /*project page*/
 
 .Project_body{
