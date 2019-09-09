@@ -186,8 +186,13 @@ height: 90px;
     .side-bar_socials .items{
         display: inline;
     }
+    .container_moto{
+        padding-left: 7px;
+        text-align: center;
+    }
     .side-bar_socials{
         margin-left : 0px;
+        margin-right: 10px;
         padding-left: 0px;
     }
     .container_body{
@@ -196,13 +201,14 @@ height: 90px;
     }
     .container_sidebar{
         flex-basis: 30%;
-        margin-left:300px;
+        margin-left:290px;
     }
     .container_hi{
         flex-basis:70%;
         text-align: center;
         margin : auto;
     }
+}
    
       
       /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
