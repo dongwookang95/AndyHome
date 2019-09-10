@@ -221,38 +221,54 @@ height: 90px;
 }
    
       
-      /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-      @media screen and (max-width: 756px) {
-        .column {
-            width: 100%;
-            }
-        .column .About_moto{
-            font-size: 15px;
-            }
-        .column .moto_slider{
-            font-size: 10px;
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 756px) {
+    .column {
+        width: 100%;
         }
-        .About_container_sidebar{
-            visibility:hidden;
-            }
-        .About_container_hi{
-            display: flex;
-            margin-right: 0px;
-            margin-left: 20px;
+    .container_sidebar{
+        display: none;
         }
-        .moto_container{
-            flex-basis: 40%;
+    .container_hi{
+        margin-right: 5px;
         }
-        .moto_slider{
-            flex-basis: 60%;
+    .small_bar{
+        display: inline;
         }
-        .column #About_branding{
-            font-size:20px;
+    .column #branding{
+        font-size:15px;
         }
-        .About_current{
-            font-size:14px;
+    .current{
+        font-size:10px;
         }
-        
+    .side-bar_socials .items{
+        display: inline;
+        }
+    .container_moto{
+        padding-left: 7px;
+        text-align: center;
+        }
+    .side-bar_socials{
+        margin-left : 0px;
+        margin-right: 10px;
+        padding-left: 0px;
+        }
+    .container_body{
+        display: flex;
+        flex-direction: column-reverse;
+        }
+    .container_sidebar{
+        flex-basis: 30%;
+        margin-left:290px;
+        }
+    .container_hi{
+        flex-basis:70%;
+        text-align: center;
+        margin : auto;
+        }
+    #showcase p{
+        font-size : 15px;
+    }
       }
     
 /*newsletter*/
@@ -440,10 +456,12 @@ header .highlight, header .About_current a{
         width: 100%;
         }
     .column .About_moto{
-        font-size: 15px;
+        font-size: 17px;
+        margin-right:10px;
+        margin-left:0px;
         }
     .column .moto_slider{
-        font-size: 10px;
+        font-size: 15px;
     }
     .About_container_sidebar{
         visibility:hidden;
@@ -460,10 +478,10 @@ header .highlight, header .About_current a{
         flex-basis: 60%;
     }
     .column #About_branding{
-        font-size:20px;
+        font-size:15px;
     }
     .About_current{
-        font-size:14px;
+        font-size:10px;
     }
     
   }
