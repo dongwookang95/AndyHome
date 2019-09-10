@@ -561,7 +561,7 @@ header .highlight, header .Project_current a{
     width: 50%;
     margin: auto;
     margin-top: 150px;
-    overflow: hidden;
+
     flex-basis: 10%;
     padding-top: 20px;
 }
@@ -569,7 +569,6 @@ header .highlight, header .Project_current a{
 .Project_container_hi{
     width: 50%;
     margin-right:100px;
-    overflow: hidden;
     flex-basis: 90%
 }
 .Project_h1{
@@ -684,12 +683,16 @@ header .highlight, header .Project_current a{
       
       /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
       @media screen and (max-width: 600px) {
+          
         .column {
             width: 100%;
             }
+        .Project_h1{
+            font-size:25px;
+        }
         .Project_container_hi{
-            margin-right: 0px;
-            margin-left: 0px;
+            margin-left: 20px;
+            margin-right:0px;
             }
         .Project_container_sidebar{
             display: none;
@@ -699,10 +702,11 @@ header .highlight, header .Project_current a{
             margin: auto;
             }
         .Project_discription{
-            margin:auto;
-            width: 450px;
-
+        width: 300px;
             }
+        .Project_explain_brief{
+            width: 180px;
+        }
         .column #Project_branding{
             font-size:15px;
         }
