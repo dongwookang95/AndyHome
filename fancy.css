@@ -14,6 +14,23 @@ body{
     margin: auto;
     overflow: hidden;
 }
+.small_bar{
+    display: none;
+}
+.small_side-bar_socials{
+    padding-left:0px;
+    list-style-type: none;
+}
+.small_side-bar_socials .items{
+    display:inline;
+}
+.small_container_moto{
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
 .reference{
     font-size: 12px;
     color: #212121;
@@ -162,21 +179,15 @@ height: 90px;
     .column {
         width: 100%;
         }
-    .container_moto{
-        position : absolute; 
-        font-weight: 400;
-        transform: rotate(0deg);
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-size: 14px;
-        }
     .container_sidebar{
-        margin-left:0px;
+        display: none;
         }
     .container_hi{
         margin-right: 0px;
     }
-
+    .small_bar{
+        display: inline;
+    }
     .column #branding{
         font-size:20px;
     }
