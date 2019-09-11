@@ -404,6 +404,7 @@ header .highlight, header .About_current a{
 .About_container_hi{
     width: 50%;
     margin-right : 150px;
+    margin-left : 15px;
     overflow: hidden;
     flex-basis: 90%
 }
