@@ -417,6 +417,10 @@ header .highlight, header .About_current a{
     margin: auto;
     margin-left : 20px;
 }
+.moto_description{
+    position: absolute;
+    margin-top:80px;
+}
 
 
 
@@ -452,7 +456,10 @@ header .highlight, header .About_current a{
 .About_current{
     font-size:13px;
 }
-
+.moto_description{
+    position: absolute;
+    margin-top:200px;
+}
 }
   
   /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
@@ -488,7 +495,10 @@ header .highlight, header .About_current a{
     .About_current{
         font-size:10px;
     }
-    
+    .moto_description{
+        position: absolute;
+        margin-top:70px;
+    }
   }
 
 .About_moto{
@@ -519,6 +529,11 @@ header .highlight, header .About_current a{
     padding: 0;
     margin: 0;
     background-color: #FAFAFA;
+}
+.Des_moto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
 }
 
 .Project_header{
