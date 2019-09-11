@@ -434,6 +434,7 @@ header .highlight, header .About_current a{
 .About_container_hi{
     display: flex;
     margin-right: 0px;
+    margin-left:2px;
 }
 .moto_container{
     flex-basis: 40%;
