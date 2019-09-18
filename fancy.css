@@ -342,7 +342,7 @@ article#main-col{
 
 footer{
     padding:10px;
-    margin-top: px;
+    margin-top: 150px;
     color:#ffffff;
     background-color: #424242;
     text-align: left;
@@ -735,3 +735,4 @@ header .highlight, header .Project_current a{
         }
       }
     
+    }
